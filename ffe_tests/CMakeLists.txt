@@ -1,6 +1,6 @@
 project(ffe_tests)
 
-add_subdirectory(lib/gtest-1.8.0)
+add_subdirectory(lib/gtest-1.8)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
