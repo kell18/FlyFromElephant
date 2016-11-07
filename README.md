@@ -12,8 +12,10 @@ cmake path/to/project
 make
 ./ffe_run START_AND_END_WORDS_PATH DICTIONARY_PATH
 ```
-START_AND_END_WORDS_PATH - path to file with two words: from and where find path in dictionary.
-DICTIONARY_PATH - path to file with dictionary words.
+`START_AND_END_WORDS_PATH` - path to file with 2 words from dictionary: 'from' and 'to'.
+
+`DICTIONARY_PATH` - path to file with dictionary words.
+
 Files must be in plain text with utf8 encoding, words separated by new line chars
 
 
