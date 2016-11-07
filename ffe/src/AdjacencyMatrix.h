@@ -13,7 +13,7 @@ namespace ffe {
         AdjacencyMatrix(const std::vector<std::vector<bool> >& matrix);
 
         /**
-         * @brief Find a first appropriate path fromId toId with time complexity = O(n*|E|), where |E| is edges count.
+         * @brief Find a first appropriate path fromId toId.
          */
         std::vector<size_t>                 findPath(size_t fromId, size_t toId) const;
 
