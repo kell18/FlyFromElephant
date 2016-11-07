@@ -1,5 +1,12 @@
 ## FlyFromElephant or ElephantFlyFrom task solution
 
-[More info](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B)
+#### Usage (Linux)
+`cmake path/to/project` <br>
+`make` <br>
+`./ffe_run START_AND_END_WORDS_PATH DICTIONARY_PATH` <br>
+START_AND_END_WORDS_PATH - path to file with two words: from and where find path in dictionary.
+DICTIONARY_PATH - path to file with dictionary words.
+Files must be in plain text with utf8 encoding, words separated by new line chars
+
 
 Bikeev Albert.
