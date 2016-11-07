@@ -37,8 +37,5 @@ namespace ffe {
 
         bool                        isDifferOnlyOneChar(std::string word1, std::string word2);
         AdjacencyMatrix*            createAdjMatrixFromDictionary(const std::vector<std::string> &dict);
-
-        std::vector<std::string>    findPath(const std::vector<char32_t>& wordV, const std::vector<char32_t>& toWordV,
-                                             const std::vector<std::string>& path) const;
     };
 }

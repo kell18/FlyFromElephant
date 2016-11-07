@@ -1,9 +1,8 @@
-cmake_minimum_required(VERSION 3.5)
 project(ffe_tests)
 
 add_subdirectory(lib/gtest-1.8)
 
-include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR}) # todo: try rm scnd arg
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 
 #configure_file(src/StrPathFinderTests.cpp.in src/StrPathFinderTests.cpp)

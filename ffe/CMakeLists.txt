@@ -3,13 +3,12 @@ project(ffe)
 add_subdirectory(lib/utf8cpp)
 
 set(HEADER_FILES
-        src/StrPathFinder.cpp src/StrPathFinder.h src/AdjacencyMatrix.cpp src/AdjacencyMatrix.h)
+        src/StrPathFinder.h src/AdjacencyMatrix.h)
 
 set(SOURCE_FILES
-        src/StrPathFinder.cpp src/StrPathFinder.h src/AdjacencyMatrix.cpp src/AdjacencyMatrix.h)
+        src/StrPathFinder.cpp src/AdjacencyMatrix.cpp)
 
 add_library(ffe STATIC ${SOURCE_FILES} ${HEADER_FILES})
 
-### Link utf8cpp lib
+# utf8cpp header only library
 target_include_directories(ffe PUBLIC lib/utf8cpp/src)
-target_link_libraries(ffe utf8cpp)

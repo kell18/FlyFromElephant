@@ -21,6 +21,7 @@ namespace ffe {
         if (fromWord.size() != toWord.size()) {
             throw std::invalid_argument("Lengths of words must match");
         }
+        // map strings into indexes and perform search in AdjacencyMatrix
         size_t fromInd = std::find(dictionary.begin(), dictionary.end(), fromWord) - dictionary.begin();
         size_t toInd = std::find(dictionary.begin(), dictionary.end(), toWord) - dictionary.begin();
         if (fromInd >= dictionary.size() || toInd >= dictionary.size()) {
@@ -30,17 +31,11 @@ namespace ffe {
         std::vector<std::string> strPath;
         strPath.reserve(indPath.size());
         auto& dict = dictionary;
+        // Map indexes back to strings
         std::for_each(indPath.begin(), indPath.end(), [&dict, &strPath](size_t ind) {
             strPath.push_back(dict[ind]);
         });
         return strPath;
-    }
-
-
-    std::vector<std::string> StrPathFinder::findPath(const std::vector<char32_t>& wordV, const std::vector<char32_t>& toWordV,
-                                                     const std::vector<std::string>& path) const {
-
-        return {};
     }
 
     AdjacencyMatrix* StrPathFinder::createAdjMatrixFromDictionary(const std::vector<std::string> &dict) {

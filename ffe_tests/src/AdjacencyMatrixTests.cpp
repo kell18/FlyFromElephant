@@ -1,10 +1,9 @@
 #include <set>
 #include <string>
-#include <functional>
-
 #include "gtest/gtest.h"
+
 #include "gmock/gmock.h"
-#include "src/StrPathFinder.h"
+#include "src/AdjacencyMatrix.h"
 
 using namespace ffe;
 using namespace std;

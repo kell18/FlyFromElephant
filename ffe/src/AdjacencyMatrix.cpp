@@ -42,7 +42,7 @@ namespace ffe {
             currPathLayer.push_back(neighbourInd);
             auto newNeighbours = getNeighboursFor(neighbourInd);
 
-            // Iterating over non seen, connected to current neighbourIn indexes
+            // Iterating over non seen, connected to current neighbourInd indexes
             for (size_t ind = 0; ind < newNeighbours.size(); ++ind) if (newNeighbours[ind]) {
                 bool notSeenOnPathLayers = true;
                 for (auto& layer : pathLayers) {

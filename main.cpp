@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <chrono>
-#include "utf8.h"
 #include "ffe/src/StrPathFinder.h"
 
 using namespace std;

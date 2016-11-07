@@ -25,7 +25,7 @@ protected:
 
 public:
     StrPathFinder* defaultFinder;
-    const char* defaultFilePath = "@PROJECT_SOURCE_DIR@/res/input_small.txt";
+    // const char* defaultFilePath = "@PROJECT_SOURCE_DIR@/res/input_small.txt";
 
     StrPathFinderTests() : Test() {
         vector<string> defaultDictionary = { "кот", "тон", "тот", "коты", "рота", "рот", "ррр" };
@@ -93,7 +93,7 @@ TEST_F(StrPathFinderTests, throw_wordsNotInDict) {
     EXPECT_THROW(defaultFinder->findPath("abc", "efg"), invalid_argument);
 }
 
-TEST_F(StrPathFinderTests, throw_invalidLength_check) {
+TEST_F(StrPathFinderTests, throw_invalidLength) {
     EXPECT_THROW(defaultFinder->findPath("a", "abc"), invalid_argument);
 }
 
