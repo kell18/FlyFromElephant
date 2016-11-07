@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-death-test.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-filepath.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-port.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-printers.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-test-part.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-typed-test.cc
+/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/src/gtest-typed-test.cc
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-death-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-message.h
+lib/gtest-1.8/googletest/include/gtest/gtest-message.h
 limits
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-param-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest-param-test.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-port.h
 utility
 -
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-param-util.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-param-util.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-param-util.h
 gtest/internal/gtest-param-util-generated.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-param-util-generated.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-param-util-generated.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-printers.h
+lib/gtest-1.8/googletest/include/gtest/gtest-printers.h
 ostream
 -
 sstream
@@ -58,35 +58,35 @@ utility
 vector
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-port.h
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-internal.h
 tuple
 -
 gtest/internal/custom/gtest-printers.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/custom/gtest-printers.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/custom/gtest-printers.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-spi.h
+lib/gtest-1.8/googletest/include/gtest/gtest-spi.h
 gtest/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-test-part.h
+lib/gtest-1.8/googletest/include/gtest/gtest-test-part.h
 iosfwd
 -
 vector
 -
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-string.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-typed-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest-typed-test.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-port.h
 gtest/internal/gtest-type-util.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-type-util.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-type-util.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest.h
+lib/gtest-1.8/googletest/include/gtest/gtest.h
 limits
 -
 ostream
@@ -94,49 +94,49 @@ ostream
 vector
 -
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-internal.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/include/gtest/gtest/internal/gtest-string.h
 gtest/gtest-death-test.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-death-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-death-test.h
 gtest/gtest-message.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-message.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-message.h
 gtest/gtest-param-test.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-param-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-param-test.h
 gtest/gtest-printers.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-printers.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-printers.h
 gtest/gtest_prod.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest_prod.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest_prod.h
 gtest/gtest-test-part.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-test-part.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-test-part.h
 gtest/gtest-typed-test.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest-typed-test.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest-typed-test.h
 gtest/gtest_pred_impl.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest/gtest_pred_impl.h
+lib/gtest-1.8/googletest/include/gtest/gtest/gtest_pred_impl.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest_pred_impl.h
+lib/gtest-1.8/googletest/include/gtest/gtest_pred_impl.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/gtest_prod.h
+lib/gtest-1.8/googletest/include/gtest/gtest_prod.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/custom/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/custom/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/custom/gtest-printers.h
+lib/gtest-1.8/googletest/include/gtest/internal/custom/gtest-printers.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/custom/gtest.h
+lib/gtest-1.8/googletest/include/gtest/internal/custom/gtest.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-death-test-internal.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-death-test-internal.h
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
 stdio.h
 -
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-filepath.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-filepath.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-string.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-internal.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 stdlib.h
 -
 sys/types.h
@@ -166,29 +166,29 @@ string
 vector
 -
 gtest/gtest-message.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/gtest-message.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/gtest-message.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-string.h
 gtest/internal/gtest-filepath.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-filepath.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-filepath.h
 gtest/internal/gtest-type-util.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-type-util.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-type-util.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-linked_ptr.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-linked_ptr.h
 stdlib.h
 -
 assert.h
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-param-util-generated.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-param-util-generated.h
 gtest/internal/gtest-param-util.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-param-util.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-param-util.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-param-util.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-param-util.h
 ctype.h
 -
 iterator
@@ -200,19 +200,19 @@ utility
 vector
 -
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-internal.h
 gtest/internal/gtest-linked_ptr.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-linked_ptr.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-linked_ptr.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 gtest/gtest-printers.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/gtest-printers.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/gtest-printers.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-port-arch.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-port-arch.h
 winapifamily.h
 -
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-port.h
 ctype.h
 -
 stddef.h
@@ -244,9 +244,9 @@ utility
 vector
 -
 gtest/internal/gtest-port-arch.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port-arch.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port-arch.h
 gtest/internal/custom/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/custom/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/custom/gtest-port.h
 direct.h
 -
 io.h
@@ -268,7 +268,7 @@ time.h
 tuple
 -
 gtest/internal/gtest-tuple.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-tuple.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-tuple.h
 tuple
 -
 tuple
@@ -280,7 +280,7 @@ tr1/tuple
 tuple
 -
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-string.h
 mem.h
 -
 string.h
@@ -288,27 +288,27 @@ string.h
 string
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-tuple.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-tuple.h
 utility
 -
 
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest-type-util.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest-type-util.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/include/gtest/internal/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/include/gtest/internal/gtest/internal/gtest-port.h
 cxxabi.h
 -
 acxx_demangle.h
 -
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-death-test.cc
+lib/gtest-1.8/googletest/src/gtest-death-test.cc
 gtest/gtest-death-test.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-death-test.h
+lib/gtest-1.8/googletest/src/gtest/gtest-death-test.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-port.h
 gtest/internal/custom/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/custom/gtest.h
+lib/gtest-1.8/googletest/src/gtest/internal/custom/gtest.h
 crt_externs.h
 -
 errno.h
@@ -330,19 +330,19 @@ sys/wait.h
 spawn.h
 -
 gtest/gtest-message.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-message.h
+lib/gtest-1.8/googletest/src/gtest/gtest-message.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-string.h
 src/gtest-internal-inl.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-internal-inl.h
+lib/gtest-1.8/googletest/src/src/gtest-internal-inl.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-filepath.cc
+lib/gtest-1.8/googletest/src/gtest-filepath.cc
 gtest/gtest-message.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-message.h
+lib/gtest-1.8/googletest/src/gtest/gtest-message.h
 gtest/internal/gtest-filepath.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-filepath.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-filepath.h
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-port.h
 stdlib.h
 -
 windows.h
@@ -358,9 +358,9 @@ limits.h
 climits
 -
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-string.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-internal-inl.h
+lib/gtest-1.8/googletest/src/gtest-internal-inl.h
 errno.h
 -
 stddef.h
@@ -376,7 +376,7 @@ string
 vector
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-port.h
 arpa/inet.h
 -
 netdb.h
@@ -384,13 +384,13 @@ netdb.h
 windows.h
 -
 gtest/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
+lib/gtest-1.8/googletest/src/gtest/gtest.h
 gtest/gtest-spi.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-spi.h
+lib/gtest-1.8/googletest/src/gtest/gtest-spi.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-port.cc
+lib/gtest-1.8/googletest/src/gtest-port.cc
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-port.h
 limits.h
 -
 stdlib.h
@@ -428,19 +428,19 @@ procinfo.h
 sys/types.h
 -
 gtest/gtest-spi.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-spi.h
+lib/gtest-1.8/googletest/src/gtest/gtest-spi.h
 gtest/gtest-message.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-message.h
+lib/gtest-1.8/googletest/src/gtest/gtest-message.h
 gtest/internal/gtest-internal.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-internal.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-internal.h
 gtest/internal/gtest-string.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-string.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-string.h
 src/gtest-internal-inl.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-internal-inl.h
+lib/gtest-1.8/googletest/src/src/gtest-internal-inl.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-printers.cc
+lib/gtest-1.8/googletest/src/gtest-printers.cc
 gtest/gtest-printers.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-printers.h
+lib/gtest-1.8/googletest/src/gtest/gtest-printers.h
 ctype.h
 -
 stdio.h
@@ -452,27 +452,27 @@ ostream
 string
 -
 gtest/internal/gtest-port.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/gtest-port.h
+lib/gtest-1.8/googletest/src/gtest/internal/gtest-port.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-test-part.cc
+lib/gtest-1.8/googletest/src/gtest-test-part.cc
 gtest/gtest-test-part.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-test-part.h
+lib/gtest-1.8/googletest/src/gtest/gtest-test-part.h
 src/gtest-internal-inl.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-internal-inl.h
+lib/gtest-1.8/googletest/src/src/gtest-internal-inl.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-typed-test.cc
+lib/gtest-1.8/googletest/src/gtest-typed-test.cc
 gtest/gtest-typed-test.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-typed-test.h
+lib/gtest-1.8/googletest/src/gtest/gtest-typed-test.h
 gtest/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
+lib/gtest-1.8/googletest/src/gtest/gtest.h
 
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest.cc
+lib/gtest-1.8/googletest/src/gtest.cc
 gtest/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
+lib/gtest-1.8/googletest/src/gtest/gtest.h
 gtest/internal/custom/gtest.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/internal/custom/gtest.h
+lib/gtest-1.8/googletest/src/gtest/internal/custom/gtest.h
 gtest/gtest-spi.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/gtest/gtest-spi.h
+lib/gtest-1.8/googletest/src/gtest/gtest-spi.h
 ctype.h
 -
 math.h
@@ -556,5 +556,5 @@ sys/socket.h
 sys/types.h
 -
 src/gtest-internal-inl.h
-ffe_tests/lib/gtest-1.8.0/googletest/src/src/gtest-internal-inl.h
+lib/gtest-1.8/googletest/src/src/gtest-internal-inl.h
 

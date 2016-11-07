@@ -1,4 +1,4 @@
-# Install script for directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0
+# Install script for directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/cmake_install.cmake")
+  include("/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/cmake_install.cmake")
 
 endif()
 

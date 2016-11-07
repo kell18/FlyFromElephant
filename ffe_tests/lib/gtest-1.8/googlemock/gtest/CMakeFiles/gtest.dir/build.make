@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kell18/Dropbox/Code/Cpp/fly-from-elephant
+CMAKE_SOURCE_DIR = /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kell18/Dropbox/Code/Cpp/fly-from-elephant
+CMAKE_BINARY_DIR = /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests
 
 # Include any dependencies generated for this target.
-include ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
+include lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
 
 # Include the progress variables for this target.
-include ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/progress.make
+include lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
+include lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: lib/gtest-1.8/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
-	$(MAKE) -f ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build.make ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides.build
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
+	$(MAKE) -f lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides.build
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides.build: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.provides.build: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 
 
 # Object files for target gtest
@@ -88,27 +88,27 @@ gtest_OBJECTS = \
 # External object files for target gtest
 gtest_EXTERNAL_OBJECTS =
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build.make
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+lib/gtest-1.8/googlemock/gtest/libgtest.a: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+lib/gtest-1.8/googlemock/gtest/libgtest.a: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/build.make
+lib/gtest-1.8/googlemock/gtest/libgtest.a: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/build: lib/gtest-1.8/googlemock/gtest/libgtest.a
 
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/build
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/requires: ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/requires: lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires
 
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/requires
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/requires
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/clean
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/clean:
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
-ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kell18/Dropbox/Code/Cpp/fly-from-elephant /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest /home/kell18/Dropbox/Code/Cpp/fly-from-elephant /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend
+lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/depend:
+	cd /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

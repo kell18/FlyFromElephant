@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0
-# Build directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0
+# Source directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8
+# Build directory: /home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

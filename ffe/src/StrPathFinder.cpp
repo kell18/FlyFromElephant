@@ -1,49 +1,77 @@
+#include <iostream>
 #include "StrPathFinder.h"
 
 namespace ffe {
 
-    StrPathFinder::StrPathFinder(const std::set<std::string>& dictionary, const std::set<std::string>& alphabet) :
-            dictionary(dictionary), alphabet(alphabet) {
+    StrPathFinder::StrPathFinder(const char* filePath) {
+        std::ifstream file(filePath);
+        std::string word;
+        while (std::getline(file, word)) {
+            dictionary.push_back(word);
+        }
+        adjMatrix = createAdjMatrixFromDictionary(dictionary);
+    }
+
+    StrPathFinder::StrPathFinder(const std::vector<std::string> &dictionary) :
+            dictionary(dictionary) {
+        adjMatrix = createAdjMatrixFromDictionary(dictionary);
     }
 
     std::vector<std::string> StrPathFinder::findPath(const std::string& fromWord, const std::string& toWord) const {
         if (fromWord.size() != toWord.size()) {
             throw std::invalid_argument("Lengths of words must match");
         }
-        bool hasWords = dictionary.find(fromWord) != dictionary.end() && dictionary.find(toWord) != dictionary.end();
-        if (!hasWords) {
+        size_t fromInd = std::find(dictionary.begin(), dictionary.end(), fromWord) - dictionary.begin();
+        size_t toInd = std::find(dictionary.begin(), dictionary.end(), toWord) - dictionary.begin();
+        if (fromInd >= dictionary.size() || toInd >= dictionary.size()) {
             throw std::invalid_argument("Dictionary does not contain this words");
         }
-        if (fromWord == toWord) {
-            return { fromWord };
-        }
-        return findPath(fromWord, toWord, { fromWord });
+        auto indPath = adjMatrix->findPath(fromInd, toInd);
+        std::vector<std::string> strPath;
+        strPath.reserve(indPath.size());
+        auto& dict = dictionary;
+        std::for_each(indPath.begin(), indPath.end(), [&dict, &strPath](size_t ind) {
+            strPath.push_back(dict[ind]);
+        });
+        return strPath;
     }
 
-    std::vector<std::string> StrPathFinder::findPath(const std::string& word, const std::string& toWord,
+
+    std::vector<std::string> StrPathFinder::findPath(const std::vector<char32_t>& wordV, const std::vector<char32_t>& toWordV,
                                                      const std::vector<std::string>& path) const {
-        for (size_t chInd = 0, lenCh = word.size(); chInd < lenCh; ++chInd) {
-            for (auto alIt = alphabet.begin(), alEnd = alphabet.end(); alIt != alEnd; ++alIt) {
-                if (word.substr(chInd, 1) == (*alIt)) {
-                    continue; // skip iteration over the same letter of word
-                }
-                std::string newWord(word);
-                newWord.replace(chInd, 1, *alIt);
-                bool pathHasNoWord = std::find(path.begin(), path.end(), newWord) == path.end();
-                // Go deeper if word does't used in path and contains in dictionary
-                if (pathHasNoWord && isDictContainsWord(newWord)) {
-                    std::vector<std::string> newPath(path.size() + 1);
-                    std::copy(path.begin(), path.end(), newPath.begin());
-                    newPath[path.size()] = newWord;
-                    return newWord == toWord ? newPath : findPath(newWord, toWord, newPath);
-                }
-            }
-        }
+
         return {};
     }
 
-    bool StrPathFinder::isDictContainsWord(const std::string &word) const {
-        return dictionary.find(word) != dictionary.end();
+    AdjacencyMatrix* StrPathFinder::createAdjMatrixFromDictionary(const std::vector<std::string> &dict) {
+        size_t length = dict.size();
+        std::vector<std::vector<bool> > matrix(length, std::vector<bool> (length, false));
+        for (size_t outI = 0; outI < length; ++outI) {
+            for (size_t innI = 0; innI < length; ++innI) if (dict[outI] != dict[innI]) {
+                    matrix[outI][innI] = isDifferOnlyOneChar(dict[outI], dict[innI]);
+                }
+        }
+        return new AdjacencyMatrix(matrix);
     }
 
+    bool StrPathFinder::isDifferOnlyOneChar(std::string word1, std::string word2) {
+        std::vector<unsigned short> word1U16;
+        utf8::utf8to16(word1.begin(), word1.end(), back_inserter(word1U16));
+        std::vector<unsigned short> word2U16;
+        utf8::utf8to16(word2.begin(), word2.end(), back_inserter(word2U16));
+
+        if (word1U16.size() != word2U16.size()) return false;
+        bool hasOneDifferCh = false;
+        for (size_t i = 0; i < word1U16.size(); ++i) {
+            if (word1U16[i] != word2U16[i]) {
+                if (hasOneDifferCh) return false;
+                else hasOneDifferCh = true;
+            }
+        }
+        return true;
+    }
+
+    StrPathFinder::~StrPathFinder() {
+        delete adjMatrix;
+    }
 }

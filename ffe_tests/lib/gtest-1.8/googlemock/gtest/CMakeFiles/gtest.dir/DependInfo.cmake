@@ -4,15 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "ffe"
-  "ffe_tests/lib/gtest-1.8.0/googletest/include"
-  "ffe_tests/lib/gtest-1.8.0/googletest"
+  "lib/gtest-1.8/googletest/include"
+  "lib/gtest-1.8/googletest"
   )
 
 # Targets to which this target links.

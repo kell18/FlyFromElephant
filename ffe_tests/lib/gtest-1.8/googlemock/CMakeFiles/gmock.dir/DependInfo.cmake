@@ -4,18 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
-  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/src/gmock-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googletest/src/gtest-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o"
+  "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/src/gmock-all.cc" "/home/kell18/Dropbox/Code/Cpp/fly-from-elephant/ffe_tests/lib/gtest-1.8/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "ffe"
-  "ffe_tests/lib/gtest-1.8.0/googlemock/include"
-  "ffe_tests/lib/gtest-1.8.0/googlemock"
-  "ffe_tests/lib/gtest-1.8.0/googletest/include"
-  "ffe_tests/lib/gtest-1.8.0/googletest"
+  "lib/gtest-1.8/googlemock/include"
+  "lib/gtest-1.8/googlemock"
+  "lib/gtest-1.8/googletest/include"
+  "lib/gtest-1.8/googletest"
   )
 
 # Targets to which this target links.
